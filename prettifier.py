@@ -1,6 +1,5 @@
 from math import log10
 from math import pow
-import sys
 
 def _format_it(n: float, powstr: str)-> str:
     if round(n, 1).is_integer():
